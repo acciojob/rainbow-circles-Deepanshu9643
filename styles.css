@@ -1,53 +1,39 @@
-/*  your css code here. If applicable */
-#circle{
-	height:300px;
-	width:300px;
-	border-radius:50%;
-	background-color:#ff0000;
-	position: relative;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
-#circle2{
-	height:250px;
-	width:250px;
-	border-radius:50%;
-	background-color:#ffa500;
-	position:absolute;
-	  top: 33px;
-      left: 33px;
+
+#outer {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(255, 165, 0);
+    border: 25px solid rgb(255, 0, 0);
+    position: relative;
 }
-#circle3{
-	height:200px;
-	width:200px;
-	border-radius:50%;
-	background-color:#ffff00;
-	position:absolute;
-	  top: 57px;
-      left: 57px;
+
+#middle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 128, 0);
+    border: 25px solid rgb(255, 255, 0);
+    position: absolute;
+    top: 8%;
+    left: 8%;
 }
-#circle4{
-	height:150px;
-	width:150px;
-	border-radius:50%;
-	background-color:#ff0000;
-	position:absolute;
-	  top: 80px;
-      left: 80px;
-}
-#circle5{
-	height:100px;
-	width:100px;
-	border-radius:50%;
-	background-color:#0000ff;
-		position:absolute;
-	  top: 105px;
-      left: 105px;
-}
-#circle6{
-	height:50px;
-	width:50px;
-	border-radius:50%;
-	background-color:#800080;
-	position:absolute;
-	  top: 130px;
-      left: 130px;
+
+#inner {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(128, 0, 128);
+    border: 25px solid rgb(0, 0, 255);
+    position: absolute;
+    top: 12%;
+    left: 12%;
 }
